@@ -9,6 +9,7 @@ export const AnimatedBackground = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
             >
+                <title>Animated Background</title>
                 <g opacity="0.15">
                     <path
                         fillRule="evenodd"
