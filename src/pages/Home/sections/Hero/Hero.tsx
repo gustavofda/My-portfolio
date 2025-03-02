@@ -4,6 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
 
@@ -44,7 +45,17 @@ const Hero = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Gustavo Araujo</Typography>
-                            <Typography color="primary.contrastText" variant="h2" textAlign="center" >I'm a Frontend Developer</Typography>
+                            <Typography color="primary.contrastText" variant="h2" textAlign="center">
+                                <Typewriter
+                                    words={["I'm a Frontend Developer"]}
+                                    loop={1}
+                                    cursor
+                                    cursorStyle='_'
+                                    typeSpeed={70}
+                                    deleteSpeed={50}
+                                    delaySpeed={1000}
+                                />
+                            </Typography>
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton>
