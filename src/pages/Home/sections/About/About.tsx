@@ -17,13 +17,16 @@ const About: React.FC<AboutProps> = ({ id }) => {
   return (
     <StyledAbout id={id}>
       <Container maxWidth="lg">
+        <Typography variant="h1" align="center" gutterBottom>
+          About Me
+        </Typography>
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
             <Typography variant="h3" gutterBottom>
-              Além do código: quem sou eu?
+            Beyond the Code: Who Am I?
             </Typography>
             <Typography variant="h5" paragraph>
-              Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre meu trabalho?
+            How about connecting with me on the social networks below and learning more about my work?
             </Typography>
             <Box display="flex" alignItems="center">
               <Link href="https://www.instagram.com" target="_blank" rel="noopener" sx={{ marginRight: 2, color: 'inherit' }}>
@@ -39,13 +42,13 @@ const About: React.FC<AboutProps> = ({ id }) => {
           </Grid>
           <Grid item xs={12} md={6}>
             <Typography variant="h3" gutterBottom>
-              Desenvolvedor Front-End apaixonado por tecnologia e soluções criativas
+             Front-End Developer passionate about technology and creative solutions.
             </Typography>
             <Typography variant="body1" paragraph>
-              Olá, eu sou Gustavo Araujo, sou um Desenvolvedor web com foco em front-End. Minha jornada no universo da tecnologia me levou a adquirir experiência intermediária nas linguagens JavaScript, TypeScript, Node e React. Ao longo do tempo, mergulhei nos estudos e projetos para aprimorar minhas habilidades, e me destacar no cenário de desenvolvimento web. Atualmente estou cursando a faculdade de Análise e Desenvolvimento de Sistemas pela Universidade Nove de Julho.
+             Hello, I'm Gustavo Araujo!** I'm a web developer focused on front-end development. My journey in the tech world has led me to gain intermediate experience in JavaScript, TypeScript, Node, and React. Over time, I've immersed myself in studies and projects to refine my skills and stand out in the web development scene. Currently, I'm pursuing a degree in Systems Analysis and Development at Universidade Nove de Julho.
             </Typography>
             <Typography variant="body1" paragraph>
-              Eu amo o desafio de encontrar soluções inovadoras e criativas para problemas complexos e estou sempre buscando aprender e crescer como profissional.
+             I love the challenge of finding innovative and creative solutions to complex problems, and I'm always looking to learn and grow as a professional.
             </Typography>
           </Grid>
         </Grid>
