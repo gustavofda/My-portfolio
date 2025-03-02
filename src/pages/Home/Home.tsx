@@ -8,8 +8,8 @@ const Home = () => {
     <>
       <NavBar />
       <Hero />
-      <Skills id="skills-section" />
       <About id ="about-section" />
+      <Skills id="skills-section" />
     </>
   );
 }
