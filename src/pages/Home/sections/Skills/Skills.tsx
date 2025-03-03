@@ -18,18 +18,24 @@ const IconContainer = styled('div')(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   gap: theme.spacing(4),
+}));
+
+const IconItem = styled('div')({
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
   '& svg': {
     transition: 'transform 0.3s ease-in-out',
     '&:hover': {
       transform: 'scale(1.2)',
     },
   },
-}));
+});
 
 const StyledHr = styled('hr')(({ theme }) => ({
   border: `1px solid ${theme.palette.primary.main}`,
   width: '50%',
-  margin: `${theme.spacing(0.5)}px auto`, // Reduzida a margem superior e inferior
+  margin: `${theme.spacing(0.5)}px auto`,
 }));
 
 const Skills: React.FC<SkillsProps> = ({ id }) => {
@@ -43,15 +49,27 @@ const Skills: React.FC<SkillsProps> = ({ id }) => {
             </Typography>
             <StyledHr />
             <Typography variant="h5" paragraph>
-            Discover the skills and tools I master that allow me to create creative and functional solutions for my clients.
+              Discover the skills and tools I master that allow me to create creative and functional solutions for my clients.
             </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
             <IconContainer>
-              <FaReact size={80} color="#61DAFB" />
-              <FaNodeJs size={80} color="#339933" />
-              <SiTypescript size={80} color="#007ACC" />
-              <FaJs size={80} color="#F7DF1E" />
+              <IconItem>
+                <FaReact size={80} color="#61DAFB" />
+                <Typography variant="body1" align="center">React</Typography>
+              </IconItem>
+              <IconItem>
+                <FaNodeJs size={80} color="#339933" />
+                <Typography variant="body1" align="center">Node.js</Typography>
+              </IconItem>
+              <IconItem>
+                <SiTypescript size={80} color="#007ACC" />
+                <Typography variant="body1" align="center">TypeScript</Typography>
+              </IconItem>
+              <IconItem>
+                <FaJs size={80} color="#F7DF1E" />
+                <Typography variant="body1" align="center">JavaScript</Typography>
+              </IconItem>
             </IconContainer>
           </Grid>
         </Grid>
