@@ -27,17 +27,19 @@ Para executar o projeto localmente, siga os passos abaixo:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
-2. Navegue até o diretório do projeto:
+2. Navegue até a pasta do projeto:
 
-   cd my-port
+       cd my-port
 
 3. Instale as dependências:
 
-   npm install
+       npm install
 
-4. Inicie as dependências:
+4. Inicie o servidor de desenvolvimento:
 
-   npm run dev
+       npm run dev
+
+5. Acesse o site em http://localhost:3000.
 
 ## Status do Projeto
 
