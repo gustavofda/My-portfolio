@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é o meu portfólio pessoal, desenvolvido utilizando React, TypeScript e Vite. O objetivo deste portfólio é apresentar minhas habilidades, projetos e experiências de forma elegante e profissional.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **Vite**: Ferramenta de build rápida e moderna para projetos front-end.
+- **Material-UI**: Biblioteca de componentes React para um design elegante e responsivo.
 
-## Expanding the ESLint configuration
+## Estrutura do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O portfólio é dividido em várias seções, incluindo:
 
-- Configure the top-level `parserOptions` property like this:
+- **Home**: Página inicial com uma introdução e uma visão geral do portfólio.
+- **Skills**: Seção que destaca minhas habilidades e ferramentas que domino.
+- **Projects**: Galeria de projetos com descrições e links para mais detalhes.
+- **About**: Informações sobre mim, minha carreira e meus interesses.
+- **Contact**: Formulário de contato para que visitantes possam entrar em contato comigo.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Como Executar o Projeto
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Para executar o projeto localmente, siga os passos abaixo:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2. Navegue até o diretório do projeto:
+
+   cd my-port
+
+3. Instale as dependências:
+
+   npm install
+
+4. Inicie as dependências:
+
+   npm run dev
+
+## Status do Projeto
+
+Este portfólio está em desenvolvimento e não é o produto final. Algumas funcionalidades e seções podem estar incompletas ou sujeitas a alterações. Este projeto não é open source e é destinado apenas para fins de apresentação pessoal.
+
+-
+
+Obrigado por visitar meu portfólio! Fique à vontade para explorar e entrar em contato se tiver alguma dúvida ou feedback.
