@@ -45,6 +45,6 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 Este portfólio está em desenvolvimento e não é o produto final. Algumas funcionalidades e seções podem estar incompletas ou sujeitas a alterações. Este projeto não é open source e é destinado apenas para fins de apresentação pessoal.
 
--
+##
 
 Obrigado por visitar meu portfólio! Fique à vontade para explorar e entrar em contato se tiver alguma dúvida ou feedback.
