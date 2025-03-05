@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import theme from './theme.ts';
+import './global.css';
 
 const rootElement = document.getElementById('root');
 

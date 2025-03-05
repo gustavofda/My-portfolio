@@ -11,17 +11,7 @@ let theme = createTheme({
     },
     typography: {
         fontFamily: [
-            '"Segoe UI Symbol"',
-            // '-apple-system',
-            // 'BlinkMacSystemFont',
-            // '"Segoe UI"',
-            // 'Roboto',
-            // '"Helvetica Neue"',
-            // 'Arial',
-            // 'sans-serif',
-            // '"Apple Color Emoji"',
-            // '"Segoe UI Emoji"',
-            // '"Segoe UI Symbol"',
+            '"Segoe UI Symbol"'
         ].join(','),
     }
 });
