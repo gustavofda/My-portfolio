@@ -10,6 +10,14 @@ const StyledSkills = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
   color: theme.palette.text.primary,
   padding: theme.spacing(8, 0),
+  [theme.breakpoints.up('xs')]: {
+    
+    paddingTop: '100px',
+  },
+  [theme.breakpoints.up('md')]: {
+  
+    paddingTop: '0',
+  },
 }));
 
 const IconContainer = styled('div')(({ theme }) => ({
