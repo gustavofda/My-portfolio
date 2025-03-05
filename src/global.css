@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Segoe UI Symbol';
+    src: url('/fonts/segoe-ui-symbol.woff2') format('woff2'),
+         url('/fonts/segoe-ui-symbol.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Segoe UI Symbol', Arial, sans-serif;
+}
