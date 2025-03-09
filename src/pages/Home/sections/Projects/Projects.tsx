@@ -28,7 +28,7 @@ const Projects = () => {
           setHasBeenInView(true);
         }
       },
-      { threshold: 0.1 } // Reduzido para melhor detecção no mobile
+      { threshold: 0.1 } 
     );
 
     observer.observe(projectsRef.current);
@@ -40,7 +40,7 @@ const Projects = () => {
     backgroundColor: '#232323',
     padding: theme.spacing(4),
     width: '100%',
-    paddingTop: '50px', // Ajustado para não deslocar no mobile
+    paddingTop: '50px', 
     [theme.breakpoints.up('md')]: {
       paddingTop: '0',
     },
