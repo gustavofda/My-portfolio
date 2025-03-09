@@ -68,6 +68,9 @@ const Projects: React.FC = () => {
     justifyContent: 'center',
     color: 'white',
     textAlign: 'center',
+    [theme.breakpoints.down('sm')]: {
+      padding: theme.spacing(1),
+    },
   }));
 
   const ProjectImage = styled('img')({
