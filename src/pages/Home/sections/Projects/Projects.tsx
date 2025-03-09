@@ -13,7 +13,7 @@ const projects = [
 ];
 
 const Projects: React.FC = () => {
-  const [inView, setInView] = useState(false);
+  const [, setInView] = useState(false);
   const [hasBeenInView, setHasBeenInView] = useState(false);
   const projectsRef = useRef(null);
 
