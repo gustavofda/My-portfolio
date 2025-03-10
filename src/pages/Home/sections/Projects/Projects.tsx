@@ -15,7 +15,7 @@ const projects = [
 
   { id: 3, title: 'Travis Scott: Utopia', description: 'Este projeto é uma landing page dedicada ao álbum "Utopia" do rapper Travis Scott. A página inclui uma seção animada de boas-vindas, um reprodutor de música integrado e um navbar com links relevantes. O objetivo é criar uma página visualmente atraente e funcional para promover o álbum e a turnê do artista.', image: utopiaImage, link: 'https://github.com/gustavofda/TOUR-CIRCUS-MAXIMUS' },
 
-  { id: 4, title: 'App: Controle de Metas', description: 'App de Controle de Metas é uma aplicação em TypeScript, React e Node.js para criação e acompanhamento de metas semanais. O usuário define a frequência desejada via formulário, e as metas são enviadas para a API via POST. As metas pendentes são exibidas em uma lista, onde podem ser marcadas como concluídas, atualizando o progresso automaticamente. ', image: metasImage, link: 'https://github.com/seu-usuario/controle-de-metas' },
+  { id: 4, title: 'App: Controle de Metas', description: 'App de Controle de Metas é uma aplicação em TypeScript, React e Node.js para criação e acompanhamento de metas semanais. O usuário define a frequência desejada via formulário, e as metas são enviadas para a API via POST. As metas pendentes são exibidas em uma lista, onde podem ser marcadas como concluídas, atualizando o progresso automaticamente. ', image: metasImage, link: 'https://github.com/gustavofda/App-Controle-de-Metas' },
 ];
 
 const Projects = () => {
