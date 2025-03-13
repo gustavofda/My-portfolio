@@ -79,7 +79,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton component="a" href="/my-port/src/pages/Home/sections/Contact/meucv.pdf" download>
+                  <StyledButton component="a" href="/my-port/src/pages/Home/sections/Contact/meucv.pdf" download="meucv.pdf">
                     <DownloadIcon />
                     <Typography>Download CV</Typography>
                   </StyledButton>
