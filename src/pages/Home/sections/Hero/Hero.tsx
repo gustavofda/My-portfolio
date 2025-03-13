@@ -13,11 +13,9 @@ const Hero = () => {
 		display: "flex",
 		alignItems: "center",
 		[theme.breakpoints.up("xs")]: {
-			// <= mobile
 			paddingTop: "100px",
 		},
 		[theme.breakpoints.up("md")]: {
-			// >=mobile
 			paddingTop: "0",
 		},
 	}));
