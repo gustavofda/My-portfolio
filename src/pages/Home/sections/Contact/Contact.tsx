@@ -23,7 +23,7 @@ const Contact = () => {
         © 2025, Gustavo Araujo
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Email: <Link href="mailto:gustavoaraujo2017fise@gmail.com" color="inherit">gustavoaraujo2017fise@gmail.com</Link>
+        Email: <Link href="mailto:gustavoaraujo2017fise@gmail.com" color="inherit" sx={{ textDecoration: 'none' }}>gustavoaraujo2017fise@gmail.com</Link>
       </Typography>
       <SocialIcons>
         <Link href="https://github.com/gustavofda" target="_blank" color="inherit">
