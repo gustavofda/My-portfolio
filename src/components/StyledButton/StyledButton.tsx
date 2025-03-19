@@ -19,7 +19,7 @@ const StyledButtonComponent = styled(Button)<StyledButtonProps>(({ theme }) => (
   alignItems: "center",
   justifyContent: "center",
   gap: "10px",
-  textDecoration: "none", // Adiciona esta linha para remover o sublinhado
+  textDecoration: "none", 
   '&:hover': {
     backgroundColor: theme.palette.primary.light,
   },
